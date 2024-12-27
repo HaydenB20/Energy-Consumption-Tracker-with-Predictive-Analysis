@@ -1,0 +1,33 @@
+{
+  "name": "energy-consumption-tracker-iot",
+  "version": "1.0.0",
+  "description": "IoT integration module for the Energy Consumption Tracker application.",
+  "main": "src/deviceIntegration.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/deviceIntegration.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "@types/node": "^14.14.31",
+    "@types/express": "^4.17.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/energy-consumption-tracker.git"
+  },
+  "keywords": [
+    "iot",
+    "energy",
+    "tracker",
+    "consumption"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
